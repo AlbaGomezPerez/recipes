@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name": "Tortilla patata",
+    "description": "Plato típico...",
+    "image": "/assets/images/tortilla.jpeg",
+    "ingredients": ["Patatas", "Huevos", "Cenas", "Cebollas"],
+    "tags": ["Patatas", "Huevos", "Cenas"]
+  },
+  {
+    "id": 2,
+    "name": "Patatas al oreganillo",
+    "description": "Patatas para acompañar...",
+    "image": "/assets/images/patatas-oreganillo.jpeg",
+    "ingredients": ["Patatas", "Ajo", "Perejil"],
+    "tags": ["Patatas", "Perejil", "Ajo", "Cenas", "Acompañamiento"]
+  },
+  {
+    "id": 3,
+    "name": "Churros",
+    "description": "Dulce típico...",
+    "image": "/assets/images/churros1.jpeg",
+    "ingredients": ["Agua", "Aceite", "Harina", "Sal"],
+    "tags": ["Agua", "Aceite", "Harina", "Sal", "Desayuno"]
+  }
+]
+
+
+
+
+

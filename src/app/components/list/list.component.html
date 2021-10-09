@@ -1,0 +1,8 @@
+<h3>Listado de recetas</h3>
+
+<div *ngFor="let recipe of recipes">
+
+  <h3>{{recipe.name}}</h3>
+  <p>{{recipe.description}}</p>
+  <img style="background-color: aqua; width: 40vw;" src={{recipe.image}}>
+</div>
