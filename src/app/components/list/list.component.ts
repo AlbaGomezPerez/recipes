@@ -27,10 +27,7 @@ export class ListComponent implements OnInit {
 
   filter(meal: string) {
     this.recipes = this.recipes.map(recipe => {
-      // recipe.tags.filter(tag => tag === 'Postre')
       let result = recipe.tags.filter(tag => tag === 'Postre');
-      console.log(recipe);
-      console.log(result);
       return result.length > 0 ? this.recipes.push(recipe) : null
     });
     debugger;
@@ -44,13 +41,10 @@ export class ListComponent implements OnInit {
   //   // });
   // }
 
-  searchBands(): void {
-    console.log('aq')
+  searchRecipes(): void {
     this.recipes = this.noFilteredRecipes.filter(band => {
       return band.name.toLowerCase().includes(this.searchValue.toLowerCase());
     });
-
-    console.log(this.recipes)
   }
 
 }
