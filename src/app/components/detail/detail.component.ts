@@ -10,9 +10,9 @@ import { RecipesService } from 'src/app/recipes.service';
   styleUrls: ['./detail.component.sass']
 })
 export class DetailComponent implements OnInit {
-  public recipes: {};
+  public recipes;
   public recipeId: string;
-  public recipe;
+  public selectedRecipe;
   constructor(
     public recipesService: RecipesService,
     private http: HttpClient,
@@ -24,7 +24,6 @@ export class DetailComponent implements OnInit {
   ngOnInit() {
     console.log(this.recipeId);
     this.http.get('./assets/bands.json').subscribe((recipe) => {
-      console.log(recipe);
       this.recipes = recipe;
     });
 
@@ -33,15 +32,14 @@ export class DetailComponent implements OnInit {
 
   getRecipe() {
     this.http.get('./assets/bands.json').subscribe((recipe) => {
-      this.recipe = recipe;
+      console.log(recipe);
+      this.recipes = recipe;
 
-      this.recipe.filter(band => {
-        console.log(band.id)
-        console.log(this.recipeId);
+      this.selectedRecipe = this.recipes.filter(band => {
         return band.id === parseInt(this.recipeId)}).shift();
-    });
 
-    console.log(this.recipe);
+        console.log(this.selectedRecipe);
+    });
 
     //   this.bandsService.getBands().subscribe((recipes) => {
 

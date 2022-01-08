@@ -1,1 +1,37 @@
-<h3>Detalle</h3>
+
+<div style="background-color: #E7E6E4; height: 100%;">
+  <div style="position: relative;">
+    <img style="width: 100%; position: absolute;" src="{{selectedRecipe.image}}">
+    <div style="padding-top: 20vh; position: relative">
+      <p style="
+    padding-left: 6%;
+    margin: auto;
+    top: 10%; color: white;
+    font-size: 28px;">{{selectedRecipe.name}}</p>
+
+
+<div style="padding: 10%; padding-top: 6%; color: #6d5f69;">
+  <!-- <span>{{selectedRecipe.description}}</span> -->
+
+  <div style="background-color: #E7E6E4; border-radius: 20px; padding: 6% 10% 6% 10%; box-shadow: 5px 7px 5px -1px #6d5f69;">
+    <p style="font-size: 20px;">Ingredientes  <span style="font-size: 14px;">(2 personas)</span></p>
+    <div style="display: flex; flex-wrap: wrap; width: 100%; justify-content: space-between;">
+      <div *ngFor="let ingredient of selectedRecipe.ingredients" style="flex-direction: column; display: flex; text-align: center;">
+          <img style="height: 30px;
+          margin: auto;
+          width: fit-content;" src="../assets/images/3.png">
+          <span>{{ingredient}}</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="background-color: white; padding: 6% 10% 6% 10%; margin-top: 4%; border-radius: 20px; box-shadow: 5px 7px 5px -1px #6d5f69;">
+    <p style="font-size: 20px;">Elaboración</p>
+    <span style="font-size: 18px;">{{selectedRecipe.process}}</span>
+  </div>
+</div>
+    </div>
+
+
+  </div>
+</div>

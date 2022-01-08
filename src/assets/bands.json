@@ -1,10 +1,11 @@
 [
   {
     "id": 1,
-    "name": "Tortilla patata",
-    "description": "Plato típico...",
+    "name": "Tortilla de patata",
+    "description": "Plato típico a base de patata y huevo. Se trata de uno de los platos más conocidos y emblemáticos de nuestra cocina.",
+    "process": "Pelamos las patatas y las cortamos en trozos (láminas o cuadraditos), hacemos lo mismo con la cebolla. Ponemos en una sartén aceite y freímos todo junto. Mientras se va haciendo, echamos sal al gusto. Cuando esté listo, ponemos a escurrir bien la mezcla para eliminar el exceso de aceite. En un bol batimos los huevos y mezclamos con la patata y la cebolla. Ponemos a calentar una sartén a fuego fuerte, echamos toda la mezcla y 'bailamos' la tortilla, en seguida, bajamos el fuego al mínimo. Cuando esté cuajada, con ayuda de un plato, le damos la vuelta. En unos minutos tu tortilla estará lista para servir.",
     "image": "/assets/images/tortilla.jpeg",
-    "ingredients": ["Patatas", "Huevos", "Cenas", "Cebollas"],
+    "ingredients": ["Patatas", "Huevos", "Sal", "Aceite", "Cebollas"],
     "tags": ["Patatas", "Huevos", "Cenas"]
   },
   {
