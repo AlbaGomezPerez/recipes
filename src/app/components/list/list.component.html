@@ -10,7 +10,7 @@
     (ngModelChange)="searchRecipes()" style="border: none; background: transparent; width: 100%; font-size: 18px;">
   </div>
   <div style="display: flex; flex-wrap: wrap; width: 100%; justify-content: center;">
-    <div class="btn btn-primary" style="flex-direction: column; display: flex; text-align: center; font-style: 18px; background-color: white; color: #6d5f69; border-color: transparent; margin: 1em; height: 60px; width: 122px; ">
+    <div (click)="filter('Postre')" class="btn btn-primary" style="flex-direction: column; display: flex; text-align: center; font-style: 18px; background-color: white; color: #6d5f69; border-color: transparent; margin: 1em; height: 60px; width: 122px; ">
       <img style="height: 30px;
     margin: auto;
     width: fit-content;" src="../assets/images/dinner.png">
@@ -47,13 +47,16 @@
   <!-- NAV -->
 
 
-<div *ngFor="let recipe of recipes" style="background-color: rgb(255, 255, 255); border-radius: 4%; margin-bottom: 5%; box-shadow: 5px 7px 5px -1px #6d5f69;">
+<div *ngFor="let recipe of recipes">
 
-  <a class="card-detail" [routerLink]="['/recipe', recipe.id ]">
-  <div style="padding: 3%">
-    <h3>{{recipe.name}}</h3>
-  <p style="font-size: 18px;">{{recipe.description}}</p>
+  <div style="background-color: rgb(255, 255, 255); border-radius: 4%; margin-bottom: 5%; box-shadow: 5px 7px 5px -1px #6d5f69;">
+    <a class="card-detail" [routerLink]="['/recipe', recipe.id ]">
+      <div style="padding: 3%">
+        <h3>{{recipe.name}}</h3>
+      <p style="font-size: 18px;">{{recipe.description}}</p>
+      </div>
+        <img style="width: 100%; border-bottom-left-radius: 4%; border-bottom-right-radius: 4%;" src={{recipe.image}}>
+      </a>
   </div>
-    <img style="width: 100%; border-bottom-left-radius: 4%; border-bottom-right-radius: 4%;" src={{recipe.image}}>
-  </a>
+
 </div>

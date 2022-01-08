@@ -26,11 +26,13 @@ export class ListComponent implements OnInit {
   }
 
   filter(meal: string) {
-    this.recipes = this.recipes.map(recipe => {
+    console.log(meal);
+    this.recipes = this.noFilteredRecipes.map(recipe => {
       let result = recipe.tags.filter(tag => tag === 'Postre');
-      return result.length > 0 ? this.recipes.push(recipe) : null
+      console.log(this.recipes);
+      return result.length > 0 ? recipe : null
     });
-    debugger;
+    // debugger;
   }
 
 
