@@ -11,6 +11,7 @@ import { RecipesService } from 'src/app/recipes.service';
 export class ListComponent implements OnInit {
   public recipes: any
   public searchValue: string = "";
+  public noFilteredRecipes: any;
   constructor(
     public recipesService: RecipesService,
     private http: HttpClient,
@@ -20,6 +21,7 @@ export class ListComponent implements OnInit {
   ngOnInit() {
     this.http.get('./assets/bands.json').subscribe((recipe) => {
       this.recipes = recipe;
+      this.noFilteredRecipes = recipe;
     });
   }
 
@@ -35,11 +37,20 @@ export class ListComponent implements OnInit {
   }
 
 
+  // searchBands(): void {
+  //   console.log('entr');
+  //   // this.allRockBands = this.noFilteredBands.filter(band => {
+  //   //   return band.name.toLowerCase().includes(this.searchValue.toLowerCase());
+  //   // });
+  // }
+
   searchBands(): void {
-    console.log('entr');
-    // this.allRockBands = this.noFilteredBands.filter(band => {
-    //   return band.name.toLowerCase().includes(this.searchValue.toLowerCase());
-    // });
+    console.log('aq')
+    this.recipes = this.noFilteredRecipes.filter(band => {
+      return band.name.toLowerCase().includes(this.searchValue.toLowerCase());
+    });
+
+    console.log(this.recipes)
   }
 
 }

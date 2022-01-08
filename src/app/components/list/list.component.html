@@ -5,7 +5,9 @@
     class="input"
     id="search"
     type="search"
-    required style="border: none; background: transparent; width: 100%; font-size: 18px;">
+    required
+    [(ngModel)]="searchValue"
+    (ngModelChange)="searchRecipes()" style="border: none; background: transparent; width: 100%; font-size: 18px;">
   </div>
   <div style="display: flex; flex-wrap: wrap; width: 100%; justify-content: center;">
     <div class="btn btn-primary" style="flex-direction: column; display: flex; text-align: center; font-style: 18px; background-color: white; color: #6d5f69; border-color: transparent; margin: 1em; height: 60px; width: 122px; ">
