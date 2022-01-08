@@ -9,7 +9,8 @@ import { RecipesService } from 'src/app/recipes.service';
   styleUrls: ['./list.component.sass']
 })
 export class ListComponent implements OnInit {
-  public recipes: {};
+  public recipes: any
+  public searchValue: string = "";
   constructor(
     public recipesService: RecipesService,
     private http: HttpClient,
@@ -20,6 +21,25 @@ export class ListComponent implements OnInit {
     this.http.get('./assets/bands.json').subscribe((recipe) => {
       this.recipes = recipe;
     });
+  }
+
+  filter(meal: string) {
+    this.recipes = this.recipes.map(recipe => {
+      // recipe.tags.filter(tag => tag === 'Postre')
+      let result = recipe.tags.filter(tag => tag === 'Postre');
+      console.log(recipe);
+      console.log(result);
+      return result.length > 0 ? this.recipes.push(recipe) : null
+    });
+    debugger;
+  }
+
+
+  searchBands(): void {
+    console.log('entr');
+    // this.allRockBands = this.noFilteredBands.filter(band => {
+    //   return band.name.toLowerCase().includes(this.searchValue.toLowerCase());
+    // });
   }
 
 }

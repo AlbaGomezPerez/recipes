@@ -1,8 +1,39 @@
-<h3>Listado de recetas</h3>
+<img style="width: 100%; border-bottom-left-radius: 4%; border-bottom-right-radius: 4%;" src="../assets/images/0.jpg">
+  <!-- SEARCH -->
+  <input placeholder="busca"
+  class="input"
+  id="search"
+  type="search"
+  required
+  (onChange)="onKeydown()">
+  <div style=" padding-left: 10%; padding-right: 10%;">
 
-<div *ngFor="let recipe of recipes">
+  <!-- NAV -->
+<div style="display: flex; justify-content: center; flex-wrap: wrap;">
+  <button type="button" class="btn btn-primary" style="background-color: #fa9191; border-color: #f76d6d; margin: 1em;">
+    Cenas
+  </button>
+  <button type="button" class="btn btn-primary" style="background-color: #fa9191; border-color: #f76d6d; margin: 1em;">
+    Comidas
+  </button>
+  <button type="button" class="btn btn-primary" style="background-color: #fa9191; border-color: #f76d6d; margin: 1em;" (click)="filter('dessert')">
+    Postres
+  </button>
+  <button type="button" class="btn btn-primary" style="background-color: #fa9191; border-color: #f76d6d; margin: 1em;">
+    Ensaladas
+  </button>
+  <button type="button" class="btn btn-primary" style="background-color: #fa9191; border-color: #f76d6d; margin: 1em;">
+    Acompañamiento
+  </button>
+</div>
 
-  <h3>{{recipe.name}}</h3>
+<div *ngFor="let recipe of recipes" style="background-color: rgb(255, 255, 255); border-radius: 4%; margin-bottom: 5%; box-shadow: 5px 7px 5px -1px rgba(0,0,0,0.48);">
+
+  <a class="card-detail" [routerLink]="['/recipe', recipe.id ]">
+  <div style="padding: 3%">
+    <h3>{{recipe.name}}</h3>
   <p>{{recipe.description}}</p>
-  <img style="background-color: aqua; width: 40vw;" src={{recipe.image}}>
+  </div>
+    <img style="width: 100%; border-bottom-left-radius: 4%; border-bottom-right-radius: 4%;" src={{recipe.image}}>
+  </a>
 </div>
