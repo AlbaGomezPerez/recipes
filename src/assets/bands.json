@@ -6,7 +6,7 @@
     "process": "Pelamos las patatas y las cortamos en trozos (láminas o cuadraditos), hacemos lo mismo con la cebolla. Ponemos en una sartén aceite y freímos todo junto. Mientras se va haciendo, echamos sal al gusto. Cuando esté listo, ponemos a escurrir bien la mezcla para eliminar el exceso de aceite. En un bol batimos los huevos y mezclamos con la patata y la cebolla. Ponemos a calentar una sartén a fuego fuerte, echamos toda la mezcla y 'bailamos' la tortilla, en seguida, bajamos el fuego al mínimo. Cuando esté cuajada, con ayuda de un plato, le damos la vuelta. En unos minutos tu tortilla estará lista para servir.",
     "image": "/assets/images/tortilla.jpeg",
     "ingredients": ["Patatas", "Huevos", "Sal", "Aceite", "Cebollas"],
-    "tags": ["Patatas", "Huevos", "Cenas"]
+    "tags": ["Patatas", "Huevos", "Cena"]
   },
   {
     "id": 2,
@@ -14,7 +14,7 @@
     "description": "Patatas para acompañar.",
     "image": "/assets/images/patatas-oreganillo.jpeg",
     "ingredients": ["Patatas", "Ajo", "Perejil"],
-    "tags": ["Patatas", "Perejil", "Ajo", "Cenas", "Acompañamiento"]
+    "tags": ["Patatas", "Perejil", "Ajo", "Cena", "Snack"]
   },
   {
     "id": 3,
@@ -32,6 +32,24 @@
     "image": "/assets/images/mari.jpeg",
     "ingredients": ["1 lata grande de Melocotón en Almíbar", "1 sobre gelatina limón", "1 sobre gelatina fresa", "2 bricks pequeños nata líquida", "Caramelo líquido"],
     "tags": ["Desayuno", "Postre"]
+  },
+  {
+    "id": 5,
+    "name": "Bizcocho de calabaza",
+    "description": "Bizcocho tierno de calabaza al horno.",
+    "process": "Cocemos la pasta, cuando esté cocida, escurrimos todo el agua sobrante y un bol mezclamos con todos los ingredientes. Aderezamos al gusto",
+    "image": "/assets/images/pumpkin.bread.jpeg",
+    "ingredients": ["Calabaza", "Harina", "Azúcar"],
+    "tags": ["Desayuno", "Postre"]
+  },
+  {
+    "id": 6,
+    "name": "Ensalada de pasta",
+    "description": "Ensalada fresca con pasta",
+    "process": "Cocemos la pasta, cuando esté cocida, escurrimos todo el agua sobrante y un bol mezclamos con todos los ingredientes. Aderezamos al gusto",
+    "image": "/assets/images/pasta.salad.jpeg",
+    "ingredients": ["Pasta", "Tomate", "Aceitunas"],
+    "tags": ["Comida", "Ensalada"]
   }
 ]
 
