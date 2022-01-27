@@ -2,7 +2,6 @@ import { HttpClient } from '@angular/common/http';
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { RecipesService } from 'src/app/recipes.service';
-// import BandsJson from "src/assets/json/bands.json";
 
 @Component({
   selector: 'detail',
@@ -32,11 +31,11 @@ export class DetailComponent implements OnInit {
   }
 
   getRecipe() {
-    this.http.get('./assets/bands.json').subscribe((recipe) => {
+    this.http.get('./assets/recipes.json').subscribe((recipe) => {
       this.recipes = recipe;
-
-      this.selectedRecipe = this.recipes.filter(band => {
-        return band.id === parseInt(this.recipeId)}).shift();
+      this.selectedRecipe = this.recipes.filter(recipe => {
+        return recipe.id === parseInt(this.recipeId)}).shift();
+        debugger;
     });
   }
 

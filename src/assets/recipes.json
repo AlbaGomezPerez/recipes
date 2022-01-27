@@ -50,6 +50,14 @@
     "image": "/assets/images/pasta.salad.jpeg",
     "ingredients": ["Pasta", "Tomate", "Aceitunas"],
     "tags": ["Comida", "Ensalada"]
+  },
+  {
+    "id": 7,
+    "name": "Gelatina de chocolate",
+    "description": "Postre frío con sabor a chocolate",
+    "image": "/assets/images/gelatina.choco.jpeg",
+    "ingredients": ["180gr chocolate negro", "25gr azúcar", "4 hojas gelatina", "400ml leche", "80gr mantequilla"],
+    "tags": ["Desayuno", "Postre"]
   }
 ]
 
