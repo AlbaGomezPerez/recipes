@@ -28,19 +28,7 @@ export class ListComponent implements OnInit {
   filter(meal: string) {
     this.recipes = this.noFilteredRecipes.filter(recipe => recipe.tags.includes(meal));
 
-    console.log(this.recipes);
-
-    // console.log(this.recipes);
-    // debugger;
   }
-
-
-  // searchBands(): void {
-  //   console.log('entr');
-  //   // this.allRockBands = this.noFilteredBands.filter(band => {
-  //   //   return band.name.toLowerCase().includes(this.searchValue.toLowerCase());
-  //   // });
-  // }
 
   searchRecipes(): void {
     this.recipes = this.noFilteredRecipes.filter(band => {
