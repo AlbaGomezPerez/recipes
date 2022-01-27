@@ -48,4 +48,8 @@ export class ListComponent implements OnInit {
     });
   }
 
+  updateSelectedRecipe(recipe) {
+    this.recipesService.updateSelectedRecipe(recipe);
+  }
+
 }

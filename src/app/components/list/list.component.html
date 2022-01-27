@@ -50,7 +50,7 @@
 <div *ngFor="let recipe of recipes">
 
   <div style="background-color: rgb(255, 255, 255); border-radius: 4%; margin-bottom: 5%; box-shadow: 5px 7px 5px -1px #6d5f69;">
-    <a class="card-detail" [routerLink]="['/recipe', recipe.id ]">
+    <a class="card-detail" [routerLink]="['/recipe', recipe.id ]" (click)="updateSelectedRecipe(recipe)">
       <div style="padding: 3%">
         <h3>{{recipe.name}}</h3>
       <p style="font-size: 18px;">{{recipe.description}}</p>
