@@ -1,25 +1,33 @@
 
 <div style="height: 100%;" *ngIf="selectedRecipe">
   <div style="position: relative;">
-    <div style="width: 100%; position: absolute; background-image: url({{selectedRecipe.image}}); background-size: cover; height: 40vh; background-repeat: no-repeat;"></div>
+    <div style="width: 100%; position: absolute; background-image: url({{selectedRecipe.image}}); background-size: cover; height: 35vh; background-position: center; background-repeat: no-repeat;"></div>
     <div style="padding-top: 20vh; position: relative;">
-      <p style="
-    padding-left: 6%;
-    margin: auto;
-    top: 10%; color: white;
-    font-size: 28px;">{{selectedRecipe.name}}</p>
 
 
 <div style="padding: 10%; padding-top: 6%;">
   <!-- <span>{{selectedRecipe.description}}</span> -->
 
   <div style="background-color: #E7E6E4; border-radius: 20px; padding: 6% 10% 6% 10%; box-shadow: 5px 7px 5px -1px #6d5f69;">
-    <p style="font-size: 20px;">Ingredientes  <span style="font-size: 14px;">(2 personas)</span></p>
-    <div style="display: flex; flex-wrap: wrap; width: 100%; justify-content: space-between;">
-      <div *ngFor="let ingredient of selectedRecipe.ingredients" style="flex-direction: column; display: flex; text-align: center;">
-          <img style="height: 30px;
-          margin: auto;
-          width: fit-content;" src="../assets/images/3.png">
+    <div style="
+    border-radius: 50%;
+    background-color: white;
+    height: 60px;
+    padding: 2%;
+    position: absolute;
+    top: 22vh;
+    left: 80vw; box-shadow: 5px 7px 5px -1px #6d5f69;">
+      <img style="
+    width: fit-content;"  src="../assets/images/{{selectedRecipe.tags[0]}}.png">
+    </div>
+    <p style="
+    padding-left: 6%;
+    margin: auto;
+    top: 10%; color: white;
+    font-size: 28px;">{{selectedRecipe.name}}</p>
+          <p style="font-size: 20px;">Ingredientes  <span *ngIf="selectedRecipe.servings" style="font-size: 14px;">({{selectedRecipe.servings}})</span></p>
+    <div style="width: 100%;">
+      <div *ngFor="let ingredient of selectedRecipe.ingredients" style="text-align: center;">
           <span style="font-size: 18px;">{{ingredient}}</span>
       </div>
     </div>

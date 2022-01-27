@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Tortilla de patata",
+    "servings": "",
     "description": "Plato típico a base de patata y huevo.",
     "process": "Pelamos las patatas y las cortamos en trozos (láminas o cuadraditos), hacemos lo mismo con la cebolla. Ponemos en una sartén aceite y freímos todo junto. Mientras se va haciendo, echamos sal al gusto. Cuando esté listo, ponemos a escurrir bien la mezcla para eliminar el exceso de aceite. En un bol batimos los huevos y mezclamos con la patata y la cebolla. Ponemos a calentar una sartén a fuego fuerte, echamos toda la mezcla y 'bailamos' la tortilla, en seguida, bajamos el fuego al mínimo. Cuando esté cuajada, con ayuda de un plato, le damos la vuelta. En unos minutos tu tortilla estará lista para servir.",
     "image": "/assets/images/tortilla.jpeg",
@@ -11,6 +12,7 @@
   {
     "id": 2,
     "name": "Patatas al oreganillo",
+    "servings": "",
     "description": "Patatas para acompañar.",
     "image": "/assets/images/patatas-oreganillo.jpeg",
     "ingredients": ["Patatas", "Ajo", "Perejil"],
@@ -19,6 +21,7 @@
   {
     "id": 3,
     "name": "Churros",
+    "servings": "",
     "description": "Dulce típico frito",
     "image": "/assets/images/churros1.jpeg",
     "ingredients": ["Agua", "Aceite", "Harina", "Sal"],
@@ -27,6 +30,7 @@
   {
     "id": 4,
     "name": "Pastel Mari",
+    "servings": "",
     "description": "Tarta suave sin horno",
     "process": "En un cazo calentamos el líquido del melocotón, añadimos los sobres de gelatina y se aparta antes de que rompa a hervir. Trituras el melocotón y se mezcla con la nata líquida. Juntamos todo, el líquido del cazo y la última mezcla. En la base del molde, añadimos el caramelo y echamos la mezcla. Dejar enfriar y meter en la nevera.",
     "image": "/assets/images/mari.jpeg",
@@ -36,6 +40,7 @@
   {
     "id": 5,
     "name": "Bizcocho de calabaza",
+    "servings": "",
     "description": "Bizcocho tierno de calabaza al horno.",
     "process": "Cocemos la pasta, cuando esté cocida, escurrimos todo el agua sobrante y un bol mezclamos con todos los ingredientes. Aderezamos al gusto",
     "image": "/assets/images/pumpkin.bread.jpeg",
@@ -45,6 +50,7 @@
   {
     "id": 6,
     "name": "Ensalada de pasta",
+    "servings": "",
     "description": "Ensalada fresca con pasta",
     "process": "Cocemos la pasta, cuando esté cocida, escurrimos todo el agua sobrante y un bol mezclamos con todos los ingredientes. Aderezamos al gusto",
     "image": "/assets/images/pasta.salad.jpeg",
@@ -54,10 +60,12 @@
   {
     "id": 7,
     "name": "Gelatina de chocolate",
+    "servings": "4 personas",
     "description": "Postre frío con sabor a chocolate",
+    "process": "En agua fría, pon la gelatina en y espera que se hidrate. En una cazuela, agrega la leche, el azúcar y la mantequilla y remueve hasta que empiece a hervir, retiramos. Agregamos la gelatina a la mezcla y disuelve. En un bol, picamos el chocolate y lo mezclamos con el resto, removemos hasta que el chocolate se disuelva por el calor de la mezcla. Reparte la mezcla en recipientes individuales y mete al frigorífico (2-3 horas)",
     "image": "/assets/images/gelatina.choco.jpeg",
     "ingredients": ["180gr chocolate negro", "25gr azúcar", "4 hojas gelatina", "400ml leche", "80gr mantequilla"],
-    "tags": ["Desayuno", "Postre"]
+    "tags": ["sugar", "Desayuno", "Postre"]
   }
 ]
 

@@ -35,7 +35,6 @@ export class DetailComponent implements OnInit {
       this.recipes = recipe;
       this.selectedRecipe = this.recipes.filter(recipe => {
         return recipe.id === parseInt(this.recipeId)}).shift();
-        debugger;
     });
   }
 
