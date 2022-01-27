@@ -18,21 +18,25 @@ export class DetailComponent implements OnInit {
     public recipesService: RecipesService,
     private http: HttpClient,
     private route: ActivatedRoute,
-  ){}
+  ){
+    this.recipeId = this.route.snapshot.params['id'];
+  }
 
   ngOnInit() {
-    this.getRecipe();
-
     this.recipesService.selectedRecipe$
-            .subscribe( recipe => this.selectedRecipe = recipe);
+            .subscribe((recipe) => {
+              this.recipeId = recipe ? recipe.id : this.recipeId;
+            });
+
+    this.getRecipe();
   }
 
   getRecipe() {
     this.http.get('./assets/bands.json').subscribe((recipe) => {
       this.recipes = recipe;
 
-      this.selectedRecipe = this.recipes.filter(recipe => {
-        return recipe.id === parseInt(this.selectedRecipe.id)}).shift();
+      this.selectedRecipe = this.recipes.filter(band => {
+        return band.id === parseInt(this.recipeId)}).shift();
     });
   }
 
