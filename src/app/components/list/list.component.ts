@@ -1,7 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { RecipesService } from 'src/app/recipes.service';
-// import BandsJson from "src/assets/json/bands.json";
 
 @Component({
   selector: 'list',
@@ -19,7 +18,7 @@ export class ListComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.http.get('./assets/bands.json').subscribe((recipe) => {
+    this.http.get('./assets/recipes.json').subscribe((recipe) => {
       this.recipes = recipe;
       this.noFilteredRecipes = recipe;
     });
