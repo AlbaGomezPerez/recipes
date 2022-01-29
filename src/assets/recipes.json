@@ -2,12 +2,12 @@
   {
     "id": 1,
     "name": "Tortilla de patata",
-    "servings": "",
+    "servings": "2 personas",
     "description": "Plato típico a base de patata y huevo.",
     "process": "Pelamos las patatas y las cortamos en trozos (láminas o cuadraditos), hacemos lo mismo con la cebolla. Ponemos en una sartén aceite y freímos todo junto. Mientras se va haciendo, echamos sal al gusto. Cuando esté listo, ponemos a escurrir bien la mezcla para eliminar el exceso de aceite. En un bol batimos los huevos y mezclamos con la patata y la cebolla. Ponemos a calentar una sartén a fuego fuerte, echamos toda la mezcla y 'bailamos' la tortilla, en seguida, bajamos el fuego al mínimo. Cuando esté cuajada, con ayuda de un plato, le damos la vuelta. En unos minutos tu tortilla estará lista para servir.",
     "image": "/assets/images/tortilla.jpeg",
-    "ingredients": ["Patatas", "Huevos", "Sal", "Aceite", "Cebollas"],
-    "tags": ["Patatas", "Huevos", "Cena"]
+    "ingredients": ["2/3 Patatas grandes", "4 Huevos", "Sal", "Aceite", "1 Cebolla"],
+    "tags": ["dinner", "Patatas", "Huevos", "Cena"]
   },
   {
     "id": 2,
@@ -16,26 +16,27 @@
     "description": "Patatas para acompañar.",
     "image": "/assets/images/patatas-oreganillo.jpeg",
     "ingredients": ["Patatas", "Ajo", "Perejil"],
-    "tags": ["Patatas", "Perejil", "Ajo", "Cena", "Snack"]
+    "tags": ["appetizers", "Patatas", "Perejil", "Ajo", "Snack"]
   },
   {
     "id": 3,
     "name": "Churros",
-    "servings": "",
+    "servings": "12 churros",
     "description": "Dulce típico frito",
+    "process": "Calentamos el agua hasta que hierva. Mezclamos la harina, una piza de sal, la levadura y el agua calinte. Introducimos la mezcla en la manga pastelera. Vamos haciendo los churros y los ponemos sobre un papel de horno o la mesa enharinada para que no se peguen. Ponemos el aceite a calentar a fuego fuerte y freímos los churros.",
     "image": "/assets/images/churros1.jpeg",
-    "ingredients": ["Agua", "Aceite", "Harina", "Sal"],
-    "tags": ["Agua", "Aceite", "Harina", "Sal", "Desayuno", "Postre"]
+    "ingredients": ["1 taza Agua", "2 cucharadas Aceite", "1 taza Harina", "Sal", "Levadura"],
+    "tags": ["sugar", "Agua", "Aceite", "Harina", "Sal", "Desayuno", "Postre"]
   },
   {
     "id": 4,
     "name": "Pastel Mari",
-    "servings": "",
+    "servings": "8/10 personas",
     "description": "Tarta suave sin horno",
     "process": "En un cazo calentamos el líquido del melocotón, añadimos los sobres de gelatina y se aparta antes de que rompa a hervir. Trituras el melocotón y se mezcla con la nata líquida. Juntamos todo, el líquido del cazo y la última mezcla. En la base del molde, añadimos el caramelo y echamos la mezcla. Dejar enfriar y meter en la nevera.",
     "image": "/assets/images/mari.jpeg",
     "ingredients": ["1 lata grande de Melocotón en Almíbar", "1 sobre gelatina limón", "1 sobre gelatina fresa", "2 bricks pequeños nata líquida", "Caramelo líquido"],
-    "tags": ["Desayuno", "Postre"]
+    "tags": ["sugar", "Desayuno", "Postre"]
   },
   {
     "id": 5,
@@ -45,17 +46,17 @@
     "process": "Cocemos la pasta, cuando esté cocida, escurrimos todo el agua sobrante y un bol mezclamos con todos los ingredientes. Aderezamos al gusto",
     "image": "/assets/images/pumpkin.bread.jpeg",
     "ingredients": ["Calabaza", "Harina", "Azúcar"],
-    "tags": ["Desayuno", "Postre"]
+    "tags": ["sugar", "Desayuno", "Postre"]
   },
   {
     "id": 6,
     "name": "Ensalada de pasta",
-    "servings": "",
+    "servings": "2 personas",
     "description": "Ensalada fresca con pasta",
     "process": "Cocemos la pasta, cuando esté cocida, escurrimos todo el agua sobrante y un bol mezclamos con todos los ingredientes. Aderezamos al gusto",
     "image": "/assets/images/pasta.salad.jpeg",
-    "ingredients": ["Pasta", "Tomate", "Aceitunas"],
-    "tags": ["Comida", "Ensalada"]
+    "ingredients": ["160 gramos Pasta", "Tomate", "Aceitunas", "Jamón de York", "Frutos secos"],
+    "tags": ["salad", "Comida", "Ensalada"]
   },
   {
     "id": 7,
@@ -65,6 +66,86 @@
     "process": "En agua fría, pon la gelatina en y espera que se hidrate. En una cazuela, agrega la leche, el azúcar y la mantequilla y remueve hasta que empiece a hervir, retiramos. Agregamos la gelatina a la mezcla y disuelve. En un bol, picamos el chocolate y lo mezclamos con el resto, removemos hasta que el chocolate se disuelva por el calor de la mezcla. Reparte la mezcla en recipientes individuales y mete al frigorífico (2-3 horas)",
     "image": "/assets/images/gelatina.choco.jpeg",
     "ingredients": ["180gr chocolate negro", "25gr azúcar", "4 hojas gelatina", "400ml leche", "80gr mantequilla"],
+    "tags": ["sugar", "Desayuno", "Postre"]
+  },
+  {
+    "id": 8,
+    "name": "Bacalao al horno",
+    "servings": "2 personas",
+    "description": "Bacalao al horno con patatas",
+    "process": "Sofreímos las verduras. Cuando empiecen a pocharse, echamos las patatas en corte panaderas. Después incluímos el vino. En otra sartén, pasamos el bacalao por la piel. Retiramos el bacalao, y freímos en la misma sartén los ajos con pimentón y vinagre. En una bandeja de horno, colocamos las verduras y las patatas, encima el bacalao y rociamos con los ajos y el caldo (reservar un poquito para emplatar)",
+    "image": "/assets/images/bacalao.horno.jpeg",
+    "ingredients": ["1/2 pimiento verde", "1/2 pimiento amarillo", "1/2 pimiento rojo", "1 cebolla", "1 o 2 patatas", "2 lomos bacalao", "Pimentón", "Vinagre", "1/2 vaso Vino blanco", "Ajos"],
+    "tags": ["dinner", "meal", "Pescado", "Bacalao", "Cena", "Comida"]
+  },
+  {
+    "id": 9,
+    "name": "Albóndigas de pescado",
+    "servings": "2 personas",
+    "description": "Albóndigas de pescado al piquillo",
+    "process": "Cocemos las patatas y las machacamos para que queden como puré. En un bol añadimos el pescado en trocitos, las patatas, los pepinillos troceados, la pimienta, la sal y los huevos. Con esa masa, hacemos bolitas y las pasamos por harina y freímos. Para la salsa, se baten los pimientos del piquillo, frutos secos, el aceite y el vinagre",
+    "image": "/assets/images/albondigas.pescado.jpeg",
+    "ingredients": ["2 Filetes Merluza", "Patatas", "Huevo", "Pepinillos", "Pimienta", "Sal", "Harina", "Pimientos piquillo", "Frutos secos", "Aceite", "Vinagre"],
+    "tags": ["dinner", "meal", "Pescado", "Cena", "Comida"]
+  },
+  {
+    "id": 10,
+    "name": "Pastel de manzana Lore",
+    "servings": "",
+    "description": "Pastel de manzana de estilo americano",
+    "process": "Untamos el molde de mantequilla y colocamos una placa de masa. Lo metemos al horno a 150º y lo dejamos a medio hacer. Cortamos las manzanas a tiras sin piel y en un bol las mezclamos con a canela, el limón, el azúcar y la harina. Cuando la harina esté de nuevo fría, echamos toda la mezcla sobre ella y tapamos con la otra placa. Tapamos todos los bordes y pintamos con el huevo batido. Espolvoreamos azúcar y hacemos una cruz con cortes abriéndolos hacia afuera en la masa. Horneamos durante media hora a 180º",
+    "image": "/assets/images/apple.pie.png",
+    "ingredients": ["2 placas masa quebrada (mercadona)", "3/4 manzanas", "1/2 limón", "1 cucharada canela", "100 gramos azúcar", "2 cucharadas harina", "1 huevo", "Mantequilla"],
+    "tags": ["sugar", "Manzana", "Desayuno", "Postre", "Tarta"]
+  },
+  {
+    "id": 11,
+    "name": "Galletas de avena y chocolate",
+    "servings": "20 galletas",
+    "description": "Galletas crujientes con trocitos de chocolate",
+    "process": "Mezclamos la avena, la harina, el azúcar, la levadura y la sal. Por otro lado mezclamos los huevos, el aceite y la vainilla. Mezclamos todo y añadimos el chocolate. En una bandeja, ponemos la masa dándole forma de galleta. Precalentamos el horno a 180º horneamos durante 10-12 minutos",
+    "image": "/assets/images/galleta.avena.jpg",
+    "ingredients": ["230 gramos salvado avena", "100 gramos harina integral", "150 gramos azúcar moreno", "1/2 cucharada levadura", "1 pizca sal", "2 huevos", "150 ml aceite", "1 cucharadita esencia de vainilla", "trocitos chocolate"],
+    "tags": ["sugar", "Galletas", "Desayuno", "Postre"]
+  },
+  {
+    "id": 12,
+    "name": "Tortitas",
+    "servings": "10 tortitas",
+    "description": "Tortitas esponjosas",
+    "process": "Mezclamos todos los ingredientes, excepto el aceite, con el que engrasaremos la sartén. Con el fuego medio-alto, echamos la masa y damos la vuelta a la tortita cuando la superficie se llene de pompitas",
+    "image": "/assets/images/pancakes.1.jpg",
+    "ingredients": ["100 gramos harina", "1 huevo", "250ml leche", "1 cucharada de levadura"],
+    "tags": ["sugar", "Desayuno", "Postre"]
+  },
+  {
+    "id": 13,
+    "name": "Bizcocho de plátano",
+    "servings": "",
+    "description": "Bizcocho esponjoso de plátano y nueces",
+    "process": "Mezclar la mantequilla con el azúcar y los huevo. Incorporar la harina con con la levadura. Al final, agregar los plátanos machados y las nueces y echarlo todo en un molde, previamente enharinado. Hornear a 200º durante 30 minutos.",
+    "image": "/assets/images/bizcocho.plabatal.jpeg",
+    "ingredients": ["200 gramos azúcar", "200 gramos mantequilla", "200 gramos harina",  "2 huevos", "1 cucharada levadura", "20 cucharadas de leche", "2 plátanos", "Nueces" ],
+    "tags": ["sugar", "Desayuno", "Postre"]
+  },
+  {
+    "id": 14,
+    "name": "Masa de pisa",
+    "servings": "4 personas",
+    "description": "Masa para pizzas, focaccias...",
+    "process": "Disuelve la levadura en dos cucharadas de agua. Vierte la levadura en un bol con el aceite, la harina, la sal y el resto del agua. Mezcla bien los ingredientes (puedes añadir agua si está seca). Amasa hasta obtener una consistencia suave, homogénea y elástica. Coloca la masa en un bol engrasado y déjala crecer por 1 o 2 horas tapada. Amasa de nuevo para quitar el aire, dale forma y déjala reposar otros 15 min.",
+    "image": "/assets/images/masapizza.jpeg",
+    "ingredients": ["2 cucharaditas levadura", "200-250 ml agua tibia", "2 cucharadas aceite oliva", "360 gramos harina", "1 pizca de sal" ],
+    "tags": ["dinner", "Cena"]
+  },
+  {
+    "id": 15,
+    "name": "Pastel de gelatina de naranja",
+    "servings": "",
+    "description": "Pastel de gelatina de naranja y sobaos",
+    "process": "Mezclamos todos los ingredientes. En una bandeja echamos una base de caramelo líquidoy después añadimos toda la mezcla, al final los sobaos. Metemos a la nevera y dejamos enfriar por un día",
+    "image": "/assets/images/tartasobaos.jpeg",
+    "ingredients": ["1/2 litro nata", "3 cucharadas de naranja", "Zumo de 8 naranjas", "1 sobre y medio de gelatina de naranja", "Bizcochos de soletilla o sobaos", "Caramelo líquido" ],
     "tags": ["sugar", "Desayuno", "Postre"]
   }
 ]

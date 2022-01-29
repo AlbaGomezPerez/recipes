@@ -9,32 +9,36 @@
   <!-- <span>{{selectedRecipe.description}}</span> -->
 
   <div style="background-color: #E7E6E4; border-radius: 20px; padding: 6% 10% 6% 10%; box-shadow: 5px 7px 5px -1px #6d5f69;">
-    <div style="
+    <div style="display: flex;
+    justify-content: space-between; margin-bottom: 2%;">
+      <div style="
     border-radius: 50%;
     background-color: white;
-    height: 60px;
+    height: 50px;
+    width: 50px;
     padding: 2%;
-    position: absolute;
-    top: 22vh;
-    left: 80vw; box-shadow: 5px 7px 5px -1px #6d5f69;">
-      <img style="
-    width: fit-content;"  src="../assets/images/{{selectedRecipe.tags[0]}}.png">
+    left: 80vw; box-shadow: 5px 7px 5px -1px #6d5f69; display: flex;
+    justify-content: center; align-items: center;">
+    <img style="width: 6%; position: absolute;" src="../assets/images/{{selectedRecipe.tags[0]}}.png">
+
     </div>
     <p style="
-    padding-left: 6%;
+    padding-bottom: 2%; padding-left: 6%;
     margin: auto;
     top: 10%; color: white;
-    font-size: 28px;">{{selectedRecipe.name}}</p>
-          <p style="font-size: 20px;">Ingredientes  <span *ngIf="selectedRecipe.servings" style="font-size: 14px;">({{selectedRecipe.servings}})</span></p>
+    font-size: 28px; display: flex; justify-content: center;">{{selectedRecipe.name}}</p>
+  </div>
+
+          <p style="font-size: 20px; text-decoration: underline;">Ingredientes  <span *ngIf="selectedRecipe.servings" style="font-size: 14px;">({{selectedRecipe.servings}})</span></p>
     <div style="width: 100%;">
-      <div *ngFor="let ingredient of selectedRecipe.ingredients" style="text-align: center;">
+      <div *ngFor="let ingredient of selectedRecipe.ingredients">
           <span style="font-size: 18px;">{{ingredient}}</span>
       </div>
     </div>
   </div>
 
   <div style="background-color: white; padding: 6% 10% 6% 10%; margin-top: 4%; border-radius: 20px; box-shadow: 5px 7px 5px -1px #6d5f69;">
-    <p style="font-size: 20px;">Elaboración</p>
+    <p style="font-size: 20px; text-decoration: underline;">Elaboración</p>
     <span style="font-size: 18px;">{{selectedRecipe.process}}</span>
   </div>
 </div>
