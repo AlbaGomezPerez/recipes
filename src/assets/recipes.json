@@ -177,6 +177,126 @@
     "image": "/assets/images/bollas.jpeg",
     "ingredients": ["Masa madre", "850 gramos harina", "Anís en grano", "1 vaso de leche", "1 vaso de aceite", "6 huevos (solo las yemas)", "20 gramos levadura fresca", "200 gramos azúcar"],
     "tags": ["sugar", "Desayuno", "Postre"]
+  },
+  {
+    "id": 19,
+    "name": "Salmorejo",
+    "servings": "2 personas",
+    "description": "Crema típica cordobesa",
+    "process": "Quitamos la piel al tomate (si los cocemos, será más fácil). En la batidora, echas un trozo de ajo, un chorreón de aceite, sal y los tomates (ir probando para rectificar). Picamos las verduras y el jamón para acompañar",
+    "image": "/assets/images/salmorejo.jpg",
+    "ingredients": ["1k tomate de pera", "Ajo", "Aceite", "Sal", "Pimiento", "Cebolla", "Jamón serrano", "Pepino"],
+    "tags": ["meal", "Comida", "tomate"]
+  },
+  {
+    "id": 20,
+    "name": "Gazpacho",
+    "servings": "2 personas",
+    "description": "Bebida refrescante de tomate",
+    "process": "Quitamos la piel al tomate (si los cocemos, será más fácil). En la batidora, echas un trozo de ajo, un chorreón de aceite, sal, los tomates y el resto de ingredientes (ir probando para rectificar)",
+    "image": "/assets/images/gazpacho.jpeg",
+    "ingredients": ["1k tomate de pera", "Ajo", "Aceite", "Sal", "Pepino", "Agua", "Pan", "Vinagre"],
+    "tags": ["meal", "Comida", "tomate"]
+  },
+  {
+    "id": 21,
+    "name": "Patatas murcianicas",
+    "servings": "",
+    "description": "Patatas en salsa para acompañar",
+    "process": "Pelamos y cortamos las patatas en trozos grandes. Echamos en una cazuela todos los ingredientes y ponemos el fuego fuerte. Cuando empiece a hervir, lo bajamos al mínimo y mantenemos hasta que las patatas estén blandas",
+    "image": "/assets/images/patatasmarijose.jpg",
+    "ingredients": ["4-5 ajos", "Pimienta en grano", "1 trocito de starlux", "Laurel", "Aceite", "2 cucharadas Vino blanco", "Agua"],
+    "tags": ["appetizers", "Patatas", "Ajo", "Snack"]
+  },
+  {
+    "id": 22,
+    "name": "Alcachofas en salsa",
+    "servings": "",
+    "description": "Alcachofas en salsa de limón",
+    "process": "Cocemos las alcachofas con medio limón (si son en bote, nos ahorramos este bote). En una sarten freímos los ajos, añadimos el perejil picado y el pan rayado. En una cazuela, añadimos todo el refrito, las alcachofas, el zumo de medio limón y el agua de la cocción",
+    "image": "/assets/images/alcachofas.jpeg",
+    "ingredients": ["Alcachofas", "Limón", "Pan rayado", "Ajos", "Perejil"],
+    "tags": ["meal", "Comida"]
+  },
+  {
+    "id": 23,
+    "name": "Lentejas",
+    "servings": "",
+    "description": "Plato típico de lentejas",
+    "process": "Poner en agua las lentejas (1-2 horas). En una cazuela con agua, echar las lentejas, las verduras enteras peladas (excepto el tomate) y las patatas (al final, para que no se deshagan). En una cazuela a parte, cocemos el chorizo para que vaya soltando la grasa. Una vez desgrasado, añadir a la cazuela principal. Cuando comience a hervir, añadimos un ajo previamente machado en el mortero con agua. En una sartén salteamos el tomate, lo retiramos del fuego y le echamos una cucharada de pimentón y todo a la cazuela.",
+    "image": "/assets/images/lentejas.jpeg",
+    "ingredients": ["160 gramos lentejas", "Pimiento rojo y verde", "Pimiento rojo seco", "Pimentón", "Puerro", "1/2 Cebolla", "1 Zanahoria", "1 Patata", "Chorizo", "1 tomate"],
+    "tags": ["meal", "Comida"]
+  },
+  {
+    "id": 24,
+    "name": "Albóndigas de quinoa",
+    "servings": "2 personas",
+    "description": "Albóndigas vegetales de quinoa",
+    "process": "Cocer la quinoa. Sofreír las verduras cortadas a cuadritos muy pequeños (puedes añadir otras verduras). Añadir las pipas para que se tuesten. Mezclar la quinoa con las verduras, el comino, el perejil y unos 50gr de la harina. Hacer bolitas con la otra harina y hornear a 200º durante 15 minutos. Podemos acompañarlas con una salsa de tomate.",
+    "image": "/assets/images/albondigas.quinoa.jpg",
+    "ingredients": ["150 gramos quinoa", "1 zanahoria", "1 puerro", "Pipas de girasol", "Comino en polvo", "75 gramos harina de garbanzo", "Perejil"],
+    "tags": ["meal", "Comida"]
+  },
+  {
+    "id": 25,
+    "name": "Garbanzos al curry",
+    "servings": "2 personas",
+    "description": "Salteado de garbanzos exótico",
+    "process": "Pelamos y cocemos las patatas. En una sartén rehogamos la cebolla y el ajo picado. Cuando esté a medio pochar, añadimos la patata a cuadritos. Añadimos las especias y por último los garbanzos",
+    "image": "/assets/images/garbanzos.curry.jpeg",
+    "ingredients": ["400 gramos garbanzos", "1-2 patatas", "1 cebolla", "Ajo", "1 cucharada y media de curry", "Cayena en polvo", "1/2 cucharada de comino", "Cilantro"],
+    "tags": ["meal", "Comida"]
+  },
+  {
+    "id": 26,
+    "name": "Cocido",
+    "servings": "2 personas",
+    "description": "Cocido tradicional",
+    "process": "Ponemos los garbanzos en agua la noche anterior. En la olla, echamos los garbanzos y la carne que tengas con agua que cubra todo. Ir quitando la espuma que vaya saliendo (si se hace en una olla express, no cerrarla hasta haber quitado toda la espuma). El chorizo lo coceremos a parte. Añadimos en la cazuela también 1 o 2 tomates enteros. Cuando esté el cocido listo, retirar los tomates (a veces se deshacen) y los machas sin la piel en un mortero con unos ajos (también previamente metido en el cocido) y cominos",
+    "image": "/assets/images/garbanzos.jpeg",
+    "ingredients": ["200 gramos garbanzos", "1 patata", "1 zanahoria", "1 cebolla", "Pimientos", "Tomate",  "Pollo", "Ternera", "Hueso de caña", "Hueso de jamón", "Hueso de espinazo", "Chorizo", "Cominos"],
+    "tags": ["meal", "Comida"]
+  },
+  {
+    "id": 27,
+    "name": "Albóndigas",
+    "servings": "2 personas",
+    "description": "Albóndigas en salsa",
+    "process": "Primero preparamos la carne picada con ajo, perejil y huevo. Para hacer las bolitas, pasamos por pan rayado o harina. Por otro lado, pochamos la cebolla, el puerro y al rato, el pimiento (cuidado que no pique). Cuando esté todo pochado, echamos un vaso de agua, una cucharada de harina y un vaso de vino. Después, media pastilla de starlux o menos. Finalmente, echamos las albóndigas ya fritas",
+    "image": "/assets/images/albondigas.jpeg",
+    "ingredients": ["250 gramos carne picada", "Cebolla", "Puerro", "Perejil", "Huevo", "Pimiento rojo seco (fresco también vale)", "Agua", "Harina", "Vino blanco", "Starlux"],
+    "tags": ["meal", "Comida"]
+  },
+  {
+    "id": 28,
+    "name": "Croquetas",
+    "servings": "",
+    "description": "Croquetas tradicionales",
+    "process": "Troceas el relleno, ya sea carne, verduras...En una sartén rehogas cebolla y un ajo. En otra sartén, añades la harina y la leche para hacer la bechamel junto con todo el relleno. Dejamos enfriar. Para hacer las croquetas, rebozamos en pan rallado, huevo y pan rallado y freímos",
+    "image": "/assets/images/croquetas.jpg",
+    "ingredients": ["Cebolla", "Ajo", "Harina", "Leche", "Pan rallado", "Huevo", "Relleno (carne cocido, verduras, morcilla...)"],
+    "tags": ["dinner", "Dinner", "Cena"]
+  },
+  {
+    "id": 29,
+    "name": "Pollo Chari",
+    "servings": "",
+    "description": "Pollo a la coca cola",
+    "process": "Rehogar el pollo. Mezclar el pollo con la sopa de cebolla y la bebida elegida y se va cociendo poco a poco",
+    "image": "/assets/images/pollo.cola.jpeg",
+    "ingredients": ["Pollo", "Sopa de cebolla (mercadona", "Coca-Cola o Cerveza"],
+    "tags": ["meal", "Comida"]
+  },
+  {
+    "id": 30,
+    "name": "Pollo en salsa",
+    "servings": "",
+    "description": "Pollo en salsa con verduras",
+    "process": "Freímos el pollo (con mucho aceite), a mitad de hecho, echamos las verduras. En un mortero machacamos el perejil, los ajos y el vino blanco. Echamos todo a una cacerola y agua hasta que cubra. Ahora lo dejamos a fuego lento. Si está soso, echamos starlux",
+    "image": "/assets/images/pollo.jpeg",
+    "ingredients": ["Pimientos verdes y rojos", "Cebolla", "Pollo en trozos", "Ajo", "Perejil", "1 mortero vino blanco", "Starlux"],
+    "tags": ["meal", "Comida"]
   }
 ]
 
