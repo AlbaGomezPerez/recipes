@@ -136,7 +136,7 @@
     "process": "Disuelve la levadura en dos cucharadas de agua. Vierte la levadura en un bol con el aceite, la harina, la sal y el resto del agua. Mezcla bien los ingredientes (puedes añadir agua si está seca). Amasa hasta obtener una consistencia suave, homogénea y elástica. Coloca la masa en un bol engrasado y déjala crecer por 1 o 2 horas tapada. Amasa de nuevo para quitar el aire, dale forma y déjala reposar otros 15 min.",
     "image": "/assets/images/masapizza.jpeg",
     "ingredients": ["2 cucharaditas levadura", "200-250 ml agua tibia", "2 cucharadas aceite oliva", "360 gramos harina", "1 pizca de sal" ],
-    "tags": ["dinner", "Cena"]
+    "tags": ["dough", "dinner", "Cena", "Comida", "meal"]
   },
   {
     "id": 15,
@@ -146,6 +146,36 @@
     "process": "Mezclamos todos los ingredientes. En una bandeja echamos una base de caramelo líquidoy después añadimos toda la mezcla, al final los sobaos. Metemos a la nevera y dejamos enfriar por un día",
     "image": "/assets/images/tartasobaos.jpeg",
     "ingredients": ["1/2 litro nata", "3 cucharadas de naranja", "Zumo de 8 naranjas", "1 sobre y medio de gelatina de naranja", "Bizcochos de soletilla o sobaos", "Caramelo líquido" ],
+    "tags": ["sugar", "Desayuno", "Postre"]
+  },
+  {
+    "id": 16,
+    "name": "Pan casero",
+    "servings": "",
+    "description": "Pan casero al horno",
+    "process": "Calentamos el agua junto al aceite en el microondas unos 5-10 segundos. Añadimos la levadura y removemos hasta que se disuelva. Ahora mezclamos el agua con la sal y la harina (podemos echar también otros ingredientes: especias, frutos secos...). Amasamos con harina hasta hacer una bola. En un recipiente de cristal engrasado con aceite ponemos la masa, le hacemos unos cortes en la parte superior y espolvoreamos harina. Tapamos el recipiente con otro de cristal y al horno (sin precalentar). Lo ponemos a 220º durante 40-45 minutos",
+    "image": "/assets/images/bread.2.jpg",
+    "ingredients": ["175ml agua", "1 cucharada de aceite", "1 sobre levadura (mejor de panadería)", "310 gramos harina", "1 cucharada sal" ],
+    "tags": ["dough"]
+  },
+  {
+    "id": 17,
+    "name": "Masa madre",
+    "servings": "",
+    "description": "Masa madre para bollos, panes...",
+    "process": "Amasas todos los ingredientes y haces una bola. La colocas en un recipiente y la tapas con con papel film. La dejas reposar durante una hora a temperatura ambiente. Después toda una noche en la nevera",
+    "image": "/assets/images/dough.jpg",
+    "ingredients": ["150 gramos harina", "4-5 gramos levadura fresca", "80 ml leche"],
+    "tags": ["dough"]
+  },
+  {
+    "id": 18,
+    "name": "Bollas",
+    "servings": "",
+    "description": "Bollos típicos de la vera",
+    "process": "Disolver la levadura en la leche templada. Mezclamos la harina con la masa madre, vas haciendo trocitos de ésta y la mezclas. Echar el azúcar, el aceite y la leche. Añadir anís al gusto. Separar las yemas de las claras y las añadimos a la masa (guardar las claras). Empezamos a amasar en mesa hasta que ya no se nos peguen las manos y metemos la bola en un recipiente. Tapamos con un trapo y dejamos reposar 30 minutos. Después, hacemos bolitas individuales, las vamos tapando con un trapo y las dejamos reposar toda la noche.",
+    "image": "/assets/images/bollas.jpeg",
+    "ingredients": ["Masa madre", "850 gramos harina", "Anís en grano", "1 vaso de leche", "1 vaso de aceite", "6 huevos (solo las yemas)", "20 gramos levadura fresca", "200 gramos azúcar"],
     "tags": ["sugar", "Desayuno", "Postre"]
   }
 ]
